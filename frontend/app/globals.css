@@ -1,0 +1,24 @@
+:root {
+  color-scheme: dark;
+}
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #090d12;
+  color: #e3edf8;
+}
+a { color: #8ec5ff; text-decoration: none; }
+main { padding: 20px; }
+.grid { display: grid; gap: 16px; }
+.grid-4 { grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); }
+.card {
+  background: #121b24;
+  border: 1px solid #223042;
+  border-radius: 10px;
+  padding: 14px;
+}
+.table { width: 100%; border-collapse: collapse; }
+.table th,.table td { border-bottom: 1px solid #2b3948; padding: 8px; text-align: left; font-size: 13px; }
+.badge-critical { color: #ff6b6b; font-weight: 700; }
+.badge-warning { color: #ffd166; font-weight: 700; }
+.nav { display:flex; gap:16px; margin-bottom:16px; }
